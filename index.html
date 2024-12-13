@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Coding Assignment</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"><link>
+</head>
+<body>
+
+    <!-- Using HTML, Bootstrap, and JavaScript create a single page website that contains the following:
+A Bootstrap styled table representing your choice of data.
+A Bootstrap styled form that allows a user to add a new row to the table when clicking on submit.-->
+
+<table class="table table-light table-bordered">
+    <thead id="tHead">
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>School</th>
+        <th>Major</th>
+    </thead>
+    <tbody id="tBody">
+    </tbody>
+</table>
+
+<form>
+    <div>
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName"/>
+    </div>
+    <div>
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName"/>
+    </div>
+    <div>
+        <label for="schoolName" class="form-label">School</label>
+        <input type="text" class="form-control" id="schoolName"/>
+    </div>
+    <div>
+        <label for="majorName" class="form-label">Major</label>
+        <input type="text" class="form-control" id="majorName"/>
+    </div>
+    <button type="submit" class="btn btn-info" id="formSubmit">Submit</button>
+</form>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
